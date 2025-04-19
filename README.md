@@ -1,4 +1,4 @@
-# Clock and Stopwatch Application
+# Stopwatch Application
 
 A Java GUI application that combines a digital clock with a stopwatch featuring lap time functionality.
 
@@ -23,23 +23,22 @@ A Java GUI application that combines a digital clock with a stopwatch featuring 
 
 1. Ensure you have Java JDK installed (version 8 or higher recommended)
 2. Compile the Java file:
+
    ```bash
-   javac ClockWithStopwatch.java
+   javac StopWatch.java
 
+### Run the application
 
-#Run the application
-java ClockWithStopwatch
+    java StopWatch
 
+## Future Enhancements
 
-###
-Future Enhancements
+> Add 12-hour format option for the clock
 
-Add 12-hour format option for the clock
+> Implement lap time statistics (fastest/slowest/average)
 
-Implement lap time statistics (fastest/slowest/average)
+> Add sound notifications
 
-Add sound notifications
-
-Save lap times to file
+> Save lap times to file
 
 
