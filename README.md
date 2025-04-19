@@ -33,12 +33,7 @@ A Java GUI application that combines a digital clock with a stopwatch featuring 
 
 ## Future Enhancements
 
-> Add 12-hour format option for the clock
-
-> Implement lap time statistics (fastest/slowest/average)
-
-> Add sound notifications
-
-> Save lap times to file
-
-
+- Add 12-hour format option for the clock
+- Implement lap time statistics (fastest/slowest/average)
+- Add sound notifications
+- Save lap times to file
