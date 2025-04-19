@@ -7,7 +7,7 @@ import java.util.Date;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class ClockWithStopwatch extends JFrame {
+public class StopWatch extends JFrame {
     private JLabel clockLabel;
     private JLabel stopwatchLabel;
     private JButton startButton, stopButton, resetButton, lapButton;
@@ -18,7 +18,7 @@ public class ClockWithStopwatch extends JFrame {
     private Queue<String> lapTimes = new LinkedList<>();
     private JTextArea lapTextArea;
 
-    public ClockWithStopwatch() {
+    public StopWatch() {
         setTitle("Clock & Stopwatch");
         setSize(400, 500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -148,7 +148,7 @@ public class ClockWithStopwatch extends JFrame {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            ClockWithStopwatch app = new ClockWithStopwatch();
+            StopWatch app = new StopWatch();
             app.setVisible(true);
         });
     }
